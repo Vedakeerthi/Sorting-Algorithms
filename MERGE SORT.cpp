@@ -1,5 +1,5 @@
                                       /*MERGE SORT*/
-                                      /*VEDAKEERTHI.A 1936120008*/
+  
 
 
 #include <iostream>
