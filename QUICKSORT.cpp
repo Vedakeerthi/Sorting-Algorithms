@@ -1,5 +1,5 @@
                                      /*QUICK SORT*/
-                               /*A.VEDAKEERTHI 1936120008*/
+                     
 
 
 #include<iostream>
