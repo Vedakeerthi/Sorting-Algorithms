@@ -39,7 +39,7 @@ Quick sort is similar to merge sort since it uses the same the divide and conque
 * Pick mid element as pivot
 
 Thinking of it, in my program, I have used the first element as pivot and it consists of three functions, _*quicksort()*_ function, _*quick()*_ function and _*swap()*_ function. The list is created and declared inside the main function, once it is declared it is sent to the quicksort function, where the array is divided into several subarrays and each subarrays has its own pivot element. The pivot element is selected and the elements which is smaller than the pivot element are sent to the left side where the other elements are sent to the right side. Then subarrays are created and the process is repeated like a recursion and then the elements in the list are sorted, this is how the quick sort algorithm works.
-<img src='https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif' align='center' alt="Merge sort" height=300 width=1000>
+<img src='https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif' align='center' alt="Quick sort" height=300 width=1000>
 
 The complexity analysis of merge sort algorithm is given as:
 
@@ -54,7 +54,7 @@ The best case happens when the pivot element’s correct position in the partiti
 **4. Selection sort :**
 <br/>
 The selection sort starts with the first element in the list and repeatedly searches for the element which is smaller than it and swaps if it founds an element smaller than it else fixes the position of the current element and moves to next element and repeats the same process, until the list is sorted, this is how selection sort works. Coming to the coding part, it is quiet similar to the bubble sort algorithm, it contains a class with three member functions _*getdata()*_, _*putdata()*_ and _*display()*_. The getdata function is where the list is created, the putdata function is responsible for the selection sort and the display function is simply used to print the sorted array to the output screen.
-<img src='https://i2.wp.com/algorithms.tutorialhorizon.com/files/2019/01/Selection-Sort-Gif.gif?ssl=1' align='center' alt="Merge sort" height=300 width=1000>
+<img src='https://i2.wp.com/algorithms.tutorialhorizon.com/files/2019/01/Selection-Sort-Gif.gif?ssl=1' align='center' alt="Selection sort" height=300 width=1000>
 
 The complexity analysis of merge sort algorithm is given as:
 
